@@ -1,7 +1,7 @@
 # DeiT Paper Reproduction(2021)
 
 ## Introduction
-This project reproduces the original DeiT architecture as described in the original paper. The purpose of this project is to check if DeiT helps ViT architecture converge faster.
+This project reproduces the original DeiT architecture as described in the original paper. The purpose of this project is to check if DeiT helps ViT converge faster.
 
 ## Architecture Summary
 | Stage                   | Layer                | Type                | Parameters                    | Output Shape  |
