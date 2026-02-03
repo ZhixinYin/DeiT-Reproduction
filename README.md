@@ -30,8 +30,10 @@ is that they are both ViTs, which reduces the inductive gap between them. Moreov
 
 ## Results
 The training loss(0.5 weight for cls loss and 0.5 for dis loss) for 40 epochs for DeiT is below
+![](image/TrainingAccuracyDeiT.png)
 
 We also attach the training accuracy graph for 40 epochs for ViT, which is below. For better comparison, the loss for ViT decreases from 5.62 to 5.29 after 40 epochs and stays around 5.3 for 37 epochs
+![](image/TrainingAccuracyViT.png)
 
 
 ## Discussion
