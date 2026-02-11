@@ -21,7 +21,7 @@ This project reproduces the original DeiT architecture as described in the origi
 | **Output**              | Ensemble             | Avg / Distill Loss  | –                             | #classes      |
 
 ## Dataset
-tiny-imagenet-200 is used as the dataset in this reproduction. The images are argumented aligns with the original paper (random resized crop, random horizontal flip, cutmix, mixup, erase, autoaugment and label smoothing). We only use training set in this reproduction, as our purpose is to check if DeiT converges faster than ViT, not training a DeiT for good performance.
+tiny-imagenet-200 is used as the dataset in this reproduction. The images are augmented aligns with the original paper (random resized crop, random horizontal flip, cutmix, mixup, erase, autoaugment and label smoothing). We only use training set in this reproduction, as our purpose is to check if DeiT converges faster than ViT, not training a DeiT for good performance.
 
 ## Teacher model
 We use pre-trained ViT(google/vit-base-patch16-224-in21k) as the teacher model. For better performance, we fine-tune it with  tiny-imagenet-200 before using (only train the classification head for 5 epochs then train the whole model for 10 epochs)
